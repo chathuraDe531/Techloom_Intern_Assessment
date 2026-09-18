@@ -1,0 +1,6 @@
+{
+  "name": "E-Commerce Checkout & Payment System",
+  "description": "Full-flow customer store featuring product discovery, inventory reservation at checkout, mock payment gateway with timeout and failure simulation, idempotency protection, order history, and cancellation with automated refund & stock restoration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
