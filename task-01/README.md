@@ -339,3 +339,12 @@ To stop the deployment:
 ```bash
 docker compose down
 ```
+
+### Deploy the Client to GitHub Pages
+The workflow at `.github/workflows/deploy-pages.yml` builds the React client from `client/` with the repository base path and publishes it automatically on pushes to `master`.
+
+In GitHub, enable **Settings → Pages → Source: GitHub Actions**. If the API is deployed separately, add a repository variable named `VITE_API_URL` containing its public API URL, for example `https://your-api.example.com/api`. Without that variable, the deployed client falls back to `localhost:5000`, which only works on the development machine.
+
+The Pages URL is:
+
+`https://chathuraDe531.github.io/Techloom_Intern_Assessment/`
